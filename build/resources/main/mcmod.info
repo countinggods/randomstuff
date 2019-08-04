@@ -1,0 +1,15 @@
+[
+{
+  "modid": "randomstuff",
+  "name": "Random Stuff",
+  "description": "This is a mod filled with random stuff",
+  "version": "0.0.1",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["McJty"],
+  "credits": "McJty",
+  "logoFile": "",
+  "screenshots": []
+}
+]
