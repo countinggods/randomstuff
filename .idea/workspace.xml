@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c25d359e-612b-436f-8454-0b9cabff42e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/randomStuff.java" afterDir="false" />
+    <list default="true" id="c25d359e-612b-436f-8454-0b9cabff42e3" name="Default Changelist" comment="Updated Gradle&#10;Added main class `randomStuff`&#10;Added proxy package and classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/ClientProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/CommonProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/ServerProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/gradle.log" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/gradle.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/randomstuff.api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/randomstuff.api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/randomstuff.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/randomstuff.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/randomstuff.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/randomstuff.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomstuff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/randomstuff.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/randomStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/randomStuff.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -54,103 +64,88 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/randomStuff.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/CommonProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/ClientProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/ServerProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/randomstuff.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules/randomstuff.test.iml" />
-        <option value="$PROJECT_DIR$/.idea/modules/randomstuff.main.iml" />
-        <option value="$PROJECT_DIR$/.idea/modules/randomstuff.api.iml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__deobf_mcp_mobius_waila_Hwyla_1_8_18_B32_1_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__mezz_jei_jei_1_12_2_4_13_1_222.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__ca_weblite_java_objc_bridge_1_0_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_21_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_ibm_icu_icu4j_core_mojang_51_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_mojang_authlib_1_5_25.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_mojang_patchy_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_mojang_realms_1_10_22.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_mojang_text2speech_1_10_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_codecjorbis_20101023.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_codecwav_20101023.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_libraryjavasound_20101123.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_librarylwjglopenal_20100824.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_soundsystem_20120107.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_akka_akka_actor_2_11_2_3_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_config_1_2_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__deobf_cofh_RedstoneFlux_1_12_2_0_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__deobf_com_github_mcjty_intwheel_1_12_1_2_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__deobf_mcjty_theoneprobe_TheOneProbe_1_12_1_12_1_4_14_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_all_4_1_9_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__it_unimi_dsi_fastutil_7_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__java3d_vecmath_1_5_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__lzma_lzma_0_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_4_4_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_platform_3_4_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_2_0_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_linux_2_0_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_osx_2_0_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_windows_2_0_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jutils_jutils_1_0_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_minecraft_launchwrapper_1_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_5_0_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_trove4j_trove4j_3_0_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_compress_1_8_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_3_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_3_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_8_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_8_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_artifact_3_5_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_utils_3_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jline_jline_3_5_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_2_9_4_nightly_20150209.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_linux_2_9_4_nightly_20150209.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_osx_2_9_4_nightly_20150209.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_windows_2_9_4_nightly_20150209.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_util_2_9_4_nightly_20150209.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_debug_all_5_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_swing_2_11_1_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_plugins_scala_continuations_library_2_11_1_0_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_plugins_scala_continuations_plugin_2_11_1_1_0_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_actors_2_11_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_actors_migration_2_11_1_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_11_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_11_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__oshi_project_oshi_core_1_1.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/randomStuff.java" />
+        <option value="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/ServerProxy.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="278" />
+    <option name="y" value="-20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -160,6 +155,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,15 +190,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="randomstuff" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="randomstuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomstuff" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="randomstuff" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
@@ -297,26 +302,35 @@
       <option name="presentableId" value="Default" />
       <updated>1564610196557</updated>
       <workItem from="1564610198613" duration="1285000" />
+      <workItem from="1564945762016" duration="2332000" />
     </task>
+    <task id="LOCAL-00001" summary="Gradle stuff">
+      <created>1564615330913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564615330913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2048000" />
+    <option name="totallyTimeSpent" value="5025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,7 +339,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49946696" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -333,7 +347,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -342,18 +356,56 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gradle stuff" />
+    <MESSAGE value="Updated Gradle&#10;Added main class `randomStuff`&#10;Added proxy package and classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Gradle&#10;Added main class `randomStuff`&#10;Added proxy package and classes" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/randomThings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/randomThings.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="204">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/randomStuff.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/countinggods/randomstuff/proxy/ServerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
